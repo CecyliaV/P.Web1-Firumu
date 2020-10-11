@@ -141,6 +141,23 @@
 .inicio-sesion{
     margin-left: 30%!important;
 }
+.form-group2{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+}
+.TituloReg{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    position: relative;
+    
+}
+
+.TituloReg2{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    position: relative;
+ 
+}
 
 /*---Login------------------*/
 div.pop-up{
