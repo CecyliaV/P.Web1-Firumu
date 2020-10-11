@@ -2165,6 +2165,18 @@ textarea.form-control {
   margin-bottom: 1rem;
 }
 
+.form-group3{
+  margin-left: 20%;
+  margin-right:20%;
+  margin-bottom: 1rem;
+}
+
+.registro-cuenta{
+  margin-left: 60%;
+  margin-right:20%;
+  margin-bottom: 2rem;
+}
+
 .form-text {
   display: block;
   margin-top: 0.25rem;

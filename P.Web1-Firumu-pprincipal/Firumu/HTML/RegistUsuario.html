@@ -31,33 +31,41 @@
           </div>
         </nav>
      
-        <!--Apartados de los botones-->
-        <div class="btn-group-vertical">
-          <a href="RegistUsuario.html" class="btn btn-primary " role="button">Registrarse</a>
-        </div>
+       
         
       
         <!-- Iniciar sesion-->
+        <h1 class="TituloReg">¿Quieres unirte a la comunidad FIRUMU?</h1>
+        <h2 class=TituloReg2>Registrate para poder ser parte</h2> <br>
         
         <form>
           <div class="form-group2 ">
-            <label for="exampleInputEmail1">Correo electronico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">No compartiremos tu correo</small>
+                <label for="exampleInputEmail1">Correo electronico *</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su correo">
+                <small id="emailHelp" class="form-text text-muted">No compartiremos tu correo</small>
+          </div>
+          <div class="form-group2 ">
+                <label for="exampleInputUser1">Nombre de usuario (minimo 3 caractéres)</label>
+             <input type="email" class="form-control" id="exampleInputUser1" aria-describedby="UserHelp" placeholder="Escriba su nombre">
           </div>
           <div class="form-group2">
-            <label for="exampleInputPassword1">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+             <label for="exampleInputPassword1">Contraseña (minimo 8 caracteres 1 mayuscula, minuscula y numero)</label>
+             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
           </div>
-          <div class="form-check2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Primera vez en Firumu</label>
-          </div>
-          <div class="inicio-sesion">
-            <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+         
+
+          <div class="form-group3">
+              <label for="exampleFormControlFile1">Example file input</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              <img src="form-control-file" alt="Responsive image" class="img-thumbnail">
+            </div> 
+            
+          <div class="registro-cuenta">
+            <button type="submit" class="btn btn-primary">Registrar</button>
         </div>
         </form>
-    
+
+       
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
