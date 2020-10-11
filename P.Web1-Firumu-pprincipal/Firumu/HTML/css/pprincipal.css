@@ -1,0 +1,189 @@
+.navbar-brand{
+    font-size: 10000px;
+    line-height: 122px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+.nav-link{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    background-color: #ffbb00 !important;
+    border-color:  #1a3365!important  ;
+}
+.nav-link2{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    background-color: #ffbb00 !important;
+    border-color:  #1a3365!important  ;
+}
+
+
+/*Botones  ---------------------------------------------*/
+
+/*Botones de la pagina principal-------------------------*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 15%;
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+/*.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-secondary2, .btn-secondary2:hover, .btn-secondary2:active, .btn-secondary2:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 120px;
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-secondary3, .btn-secondary3:hover, .btn-secondary3:active, .btn-secondary3:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 160px;
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-secondary4, .btn-secondary4:hover, .btn-secondary4:active, .btn-secondary4:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 200px;
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}*/
+/*Botones de la página firucuenta--------------------------------------*/
+.btn-Notify, .btn-Notify:hover, .btn-Notify:active, .btn-Notify:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    /*top: 160px;
+    right: 280px;*/
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-Notice, .btn-Notice:hover, .btn-Notice:active, .btn-Notice:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    /*top: 240px;
+    right: 385px;*/
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-ETC, .btn-ETC:hover, .btn-ETC:active, .btn-ETC:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    /*top: 320px;
+    right: 580px;*/
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.inicio-sesion{
+    margin-left: 30%!important;
+}
+
+/*---Login------------------*/
+div.pop-up{
+    position: fixed;
+    z-index: 100;
+    border-color:#1a3365 !important ;
+    background-color:green;
+    height: 50%;
+    width: 25%;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+}
+
+.col{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365 !important;
+    top: 10px;
+    left: 30%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}
+
+
+/*Vistas------------------------------ */
+/*@media only screen and (min-width: 800px){
+    header{
+        font-size: xx-large;
+        padding: 30px;
+    }
+    
+    div{
+        display: inline-block;
+        height: 200px;
+        width: 300px;
+        background: black;
+        color: white;
+        padding:20px;
+        margin-bottom: 5px;
+    }
+    
+}*/
+
