@@ -141,10 +141,12 @@
 .inicio-sesion{
     margin-left: 30%!important;
 }
+
 .form-group2{
     font-family: 'Montserrat', sans-serif;
     color: #1a3365!important;
 }
+
 .TituloReg{
     font-family: 'Montserrat', sans-serif;
     color: #1a3365!important;
@@ -184,7 +186,45 @@ div.pop-up{
     margin-top: 6px;
 }
 
+/*Gestion de noticias------------------------------------------*/
+.dropGestNot{
+    margin-left: 66%!important;
+   position: absolute;
+}
 
+.TituloNoticia{
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.container-sm{
+    position: relative;
+    top: 29px;
+    left: 5%;
+}
+
+.carousel-inner{
+    margin-top: 40px;
+    max-width: 700px ;
+    margin-left: 14%;
+}
+
+.TitNotice{
+    top: 20px;
+}
+
+.comentarios{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365;
+    border: 2px solid #1a3365 ;
+    border-radius: 4%;
+    max-width: 700px;
+    height: 400px;
+    margin-left: 24%;
+    position: center;
+}
 /*Vistas------------------------------ */
 /*@media only screen and (min-width: 800px){
     header{

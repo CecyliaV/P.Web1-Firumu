@@ -16,7 +16,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+      
           <!--Apartado para el drop Down-->
              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
@@ -31,7 +31,49 @@
           </div>
         </nav>
      
-     
+     <!-- Apartado para la creación de noticias-->
+     <h1 class="TituloGestNoticia TituloReg">Gestion de noticias</h1>
+     <form>
+      <div class="form-group dropGestNot">
+        <label for="exampleFormControlSelect1">Categoria</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Estrenos</option>
+          <option>Trailers</option>
+          <option>Entrevistas</option>
+          <option>Detras de camaras</option>
+          <option>Escenas eliminadas</option>
+        </select>
+      </div>
+      <div class="form-group2 TituloNoticia ">
+        <label for="exampleInputEmail1">Titulo</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba el titulo de la noticia">
+      </div>
+      
+      <div class="form-group2">
+        <label for="exampleInputPassword1">Descripcion corta</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Añada una descripcion corta">
+      </div>
+
+      <div class="form-group2">
+        <label for="exampleFormControlTextarea1">Noticia</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <div class="form-group3">
+        <label for="exampleFormControlFile1">Example file input</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        <img src="form-control-file" alt="Responsive image" class="img-thumbnail">
+      </div> 
+
+      <div class="form-group2">
+        <label for="exampleFormControlTextarea1">URL de video</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <div class="inicio-sesion"> 
+        <button type="submit" class="btn btn-primary">subir noticia</button>
+    </div>
+    </form>
       
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
