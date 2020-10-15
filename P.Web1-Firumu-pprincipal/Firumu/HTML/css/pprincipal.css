@@ -225,6 +225,72 @@ div.pop-up{
     margin-left: 24%;
     position: center;
 }
+
+.dropGestNot2{
+    margin-left: 66%!important;
+   position: absolute;
+   top: 120px;
+}
+
+/*Editar perfil------------------------------*/
+.photo-profile-ed{
+    margin-left: 1%!important;
+   position: absolute;
+}
+
+/*Trailers--------------------------*/
+.TitPeliRecientes{
+    margin-left: 1%!important;
+    position: absolute;
+    top: 119px;
+}
+
+.videoBig{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+
+
+
+.containerPreVideo {
+    position: absolute;
+    left:78%;
+    width: 150px;
+    top: 25%;
+  }
+  .containerPreVideo2 {
+    position: absolute;
+    left:78%;
+    width: 150px;
+    top: 65%;
+  }
+  .containerPreVideo3 {
+    position: absolute;
+    left:78%;
+    width: 150px;
+    top: 105%;
+  }
+
+  .btnVideo {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #1a3365;
+    color:  #ffbb00;
+    font-size: 16px;
+    padding: 10px 22px;
+    border:  #ffbb00;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+
+/*.Butrailer{
+    margin-right:40px;
+   
+}*/
+
 /*Vistas------------------------------ */
 /*@media only screen and (min-width: 800px){
     header{
