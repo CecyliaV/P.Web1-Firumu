@@ -1,0 +1,292 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2020, 7:23:39 PM
+    Author     : Alex Bazaldua 
+*/
+/*Para la nav bar-------------------------------------------------------------*/
+.navbar-brand{
+    font-size: 50px;
+    line-height: 122px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+.nav-link{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    background-color: #ffbb00 !important;
+    border-color:  #1a3365!important  ;
+}
+.nav-link2{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    background-color: #ffbb00 !important;
+    border-color:  #1a3365!important  ;
+}
+.navbar-expand-lg,.navbar-light,.bg-yellow{
+      color: #ffbb00;
+}
+
+.card-body{
+    height: 164px;
+}
+
+
+
+/*Botones  ---------------------------------------------*/
+
+/*Botones de la pagina principal-------------------------*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 15px;
+    left: 15%;
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+
+/*Botones de la página firucuenta--------------------------------------*/
+.btn-Notify, .btn-Notify:hover, .btn-Notify:active, .btn-Notify:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    /*top: 160px;
+    right: 280px;*/
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-Notice, .btn-Notice:hover, .btn-Notice:active, .btn-Notice:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    /*top: 240px;
+    right: 385px;*/
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.btn-ETC, .btn-ETC:hover, .btn-ETC:active, .btn-ETC:visited {
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 35px;
+    position: relative;
+    /*top: 320px;
+    right: 580px;*/
+    color: #ffbb00 !important;
+    background-color: #1a3365 !important;
+    border-color:  #ffbb00 !important ;
+}
+
+.inicio-sesion{
+    margin-left: 30%!important;
+}
+
+.form-group2{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+}
+
+.TituloReg{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    position: relative;
+    
+}
+
+.TituloReg2{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365!important;
+    position: relative;
+ 
+}
+
+/*---Login------------------*/
+/*div.pop-up{
+    position: fixed;
+    z-index: 100;
+    border-color:#1a3365 !important ;
+    background-color:green;
+    height: 50%;
+    width: 25%;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+}
+
+.col{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365 !important;
+    top: 10px;
+    left: 30%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}*/
+
+/*Gestion de noticias------------------------------------------*/
+/* .dropGestNot{
+    margin-left: 66%!important;
+   position: absolute;
+}
+
+.TituloNoticia{
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.container-sm{
+    position: relative;
+    top: 29px;
+    left: 5%;
+}
+
+.carousel-inner{
+    margin-top: 40px;
+    max-width: 700px ;
+    margin-left: 14%;
+}
+
+.TitNotice{
+    top: 20px;
+}
+
+.comentarios{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365;
+    border: 2px solid #1a3365 ;
+    border-radius: 4%;
+    max-width: 600px;
+    height: 200px;
+    margin-left: 24%;
+    position: center;
+}
+/*.cardNotice{
+    max-width: 900px;
+    height: 950px;
+}
+*/  
+/*.dropGestNot2{
+    margin-left: 66%!important;
+   position: absolute;
+   top: 120px;
+}
+
+.Stars{
+    position:absolute;
+    left:64%;
+    height: 46px;
+}
+
+.checked {
+    color: orange;
+  }
+  
+ */
+
+/*Editar perfil------------------------------*/
+/*.photo-profile-ed{
+    margin-left: 1%!important;
+   position: absolute;
+}
+*/
+/*Trailers--------------------------*/
+/*.TitPeliRecientes{
+    margin-left: 1%!important;
+    position: absolute;
+    top: 119px;
+}
+
+.videoBig{
+    padding-top: 60px;
+    padding-left: 150px;
+}
+
+.Stars2{
+    position:absolute;
+    left:12%;
+    height: 6px;
+}
+/*.card{
+    max-width: 700px;
+    height: 250px;
+}*/
+/*.card-inner{
+    margin-left: 2rem;
+}*/
+/*.comentariosTrailer{
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1a3365;
+    border: 2px solid #1a3365 ;
+    border-radius: 4%;
+    max-width: 500px;
+    height: 150px;
+    margin-left: 12%;
+    position: center;
+}
+.containerPreVideo {
+    position: absolute;
+    left:78%;
+    width: 150px;
+    top: 25%;
+  }
+  .containerPreVideo2 {
+    position: absolute;
+    left:78%;
+    width: 150px;
+    top: 65%;
+  }
+  .containerPreVideo3 {
+    position: absolute;
+    left:78%;
+    width: 150px;
+    top: 105%;
+  }
+
+  .btnVideo {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #1a3365;
+    color:  #ffbb00;
+    font-size: 16px;
+    padding: 10px 22px;
+    border:  #ffbb00;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+*/
+
+
