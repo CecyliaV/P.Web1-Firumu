@@ -9,11 +9,10 @@ and open the template in the editor.
 */
 /*Para la nav bar-------------------------------------------------------------*/
 .navbar-brand{
-    font-size: 50px;
+    font-size: 30px;
     line-height: 122px;
     font-family: 'Bungee Shade', cursive;
 }
-
 
 .nav-link{
     font-size: 15px;
@@ -31,19 +30,22 @@ and open the template in the editor.
     background-color: #ffbb00 !important;
     border-color:  #1a3365!important  ;
 }
-.navbar-expand-lg,.navbar-light,.bg-yellow{
-      color: #ffbb00;
-}
 
-.card-body{
+
+
+/*.card-body{
     height: 164px;
-}
+}*/
 
 
 
 /*Botones  ---------------------------------------------*/
 
 /*Botones de la pagina principal-------------------------*/
+.inicio-sesion{
+    margin-left: 30%!important;
+}
+
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     font-size: 15px;
     line-height: 22px;
@@ -60,15 +62,15 @@ and open the template in the editor.
 
 
 /*Botones de la página firucuenta--------------------------------------*/
-.btn-Notify, .btn-Notify:hover, .btn-Notify:active, .btn-Notify:visited {
+/*.btn-Notify, .btn-Notify:hover, .btn-Notify:active, .btn-Notify:visited {
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
     width: 200px;
     height: 35px;
     position: relative;
-    /*top: 160px;
-    right: 280px;*/
+    top: 160px;
+    right: 280px;
     color: #ffbb00 !important;
     background-color: #1a3365 !important;
     border-color:  #ffbb00 !important ;
@@ -81,8 +83,8 @@ and open the template in the editor.
     width: 200px;
     height: 35px;
     position: relative;
-    /*top: 240px;
-    right: 385px;*/
+    top: 240px;
+    right: 385px;
     color: #ffbb00 !important;
     background-color: #1a3365 !important;
     border-color:  #ffbb00 !important ;
@@ -95,16 +97,14 @@ and open the template in the editor.
     width: 200px;
     height: 35px;
     position: relative;
-    /*top: 320px;
-    right: 580px;*/
+    top: 320px;
+    right: 580px;
     color: #ffbb00 !important;
     background-color: #1a3365 !important;
     border-color:  #ffbb00 !important ;
 }
 
-.inicio-sesion{
-    margin-left: 30%!important;
-}
+
 
 .form-group2{
     font-family: 'Montserrat', sans-serif;
@@ -123,7 +123,7 @@ and open the template in the editor.
     color: #1a3365!important;
     position: relative;
  
-}
+}*/
 
 /*---Login------------------*/
 /*div.pop-up{

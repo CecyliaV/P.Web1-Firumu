@@ -1,7 +1,11 @@
+<%@page import="java.util.List"%>
+<%@page import="com.firuage.firumuipage1.models.Card"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
     /*Casting explicito*/ /*Obtener onjeto*/
 String titulo = (String)request.getAttribute("Titulo"); 
+List<Card> cards = (List<Card> )request.getAttribute("cards"); 
+titulo = titulo != null ? titulo : "" ;
 %>
 <!DOCTYPE html>
 <html>
@@ -20,7 +24,7 @@ String titulo = (String)request.getAttribute("Titulo");
     </head>
     <body>
            <nav class="navbar navbar-expand-lg navbar-light bg-yellow nav-link">
-        <a class="navbar-brand" style="color: #1a3365" width="150px" href="#">Firumu</a>
+        <a class="navbar-brand" style="color: #1a3365" width="130px" href="#">Firumu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,15 +34,26 @@ String titulo = (String)request.getAttribute("Titulo");
               <ul class="navbar-nav mr-auto">
                 <a href="mainServlet" class="nav-link">Firucuenta</a>
               </ul>
-              <li class="nav-item active">
-                <a class="nav-link2" href="InicioSesion.html" >Iniciar sesion <span class="sr-only">(current)</span></a>
-              </li>
+              
 
             <!--Apartado para la barra buscadora -->
+            <%
+            if(1==1){ /* 1==1 para NO logear*/
+            %>
             <form class="form-inline my-2 my-lg-0">
-               <input class="form-control mr-sm-2" style=" margin: 0.3em 2em;" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0"  type="submit">Search</button>
+                 <input class="form-control mr-sm-2" style=" margin: 0.3em 2em;" type="text" placeholder="User" >
+                 <input class="form-control mr-sm-2" style=" margin: 0.3em 2em;" type="password" placeholder="password" >
+                <li class="nav-item active">
+                <a class="nav-link2" href="InicioSesion.html" >Iniciar sesion <span class="sr-only">(current)</span></a>
+              </li>
             </form>
+            <%
+                }else{
+            %>
+            <img width="30px" src="https://3.bp.blogspot.com/-EIUIc7iUEIM/VLIBpnqclOI/AAAAAAAADNQ/jw1w0nRuwr4/s1600/Samurai_x_Kenshin.PNG"/>Alex
+             <%
+                }
+            %>
           </div>
         </nav>
              
@@ -58,13 +73,36 @@ String titulo = (String)request.getAttribute("Titulo");
                  <h1>Hello World!</h1>
                  <h2> <%= titulo %></h2> <!--Mostrar objeto-->
                 <div class="row">
+                    
+                    <h2 class="col-12"> Cards</h2>
+                    <%
+                        if(cards!=null){
+                        for (Card card: cards)
+                        {
+                     %>
+                      <div class="card col-3">
+                    <img src="<%= card.getImgUrl()%>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><%= card.getTitle()%></h5>
+                        <p class="card-text"><%= card.getDescription()%></p>
+                        <a href="<%= card.getLinRef()%>" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                     <%
+                         }
+                           }
+
+                     %>
+                     
+                    <h2 class="cot´+ghjpghl-10"> For</h2>
                     <%
                          for(int i=0;i<=3;i++){
                     %>
             <!--<p>Categoria<p>-->
            
                     <div class="col-sm-20 col-md-6 col-lg-3">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card " style="width: 20rem;">
                             <img src="https://static1.abc.es/media/play/2020/05/16/braveheart-kDsF--620x349@abc.jpg" 
                             class="card-img-top" alt="Responsive image">
                                 <div class="card-body">
@@ -77,9 +115,54 @@ String titulo = (String)request.getAttribute("Titulo");
             <%
                 }
              %>
+             <!-- Aprobar noticias ------------------------------  -->
+             <h2 class="col-12"> Noticias por aprobar</h2>
+             <table class="col-12 table"> 
+                 
+                 <tr>
+                    <th>Título</th>
+                    <th>Decripción</th>
+                    <th>Imagen</th>
+                    <th>Link</th>
+                    <th>Accion</th>
+                 </tr>
+             <%
+                 if(cards!=null){
+                        for (Card card: cards)
+                        {
+                     %>
+                     <tr>
+                         <td><%= card.getTitle()%></td>
+                         <td><%= card.getDescription()%></td>
+                         <td><%= card.getImgUrl()%></td>
+                         <td><%= card.getLinRef()%></td>
+                         <td>
+                             <a class="btn btn-success">Aprobar</a>
+                             <a class="btn btn-danger">Eliminar</a>
+                         </td>
+                     </tr>
+                     <div class="col-sm-20 col-md-16 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="<%= card.getImgUrl()%>" class="card-img-top" alt="Responsive image">
+                                <div class="card-body">
+                                     <h5 class="card-title"> <%= card.getTitle()%> </h5>
+                                     <p class="card-text"><%= card.getDescription()%></p>
+                                     <a href="<%= card.getLinRef()%>" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                        </div>
+                     </div>
+                     <%
+                         }
+                        }       
+                     %>
+                     
+                    <h2 class="col-10"> For</h2>
+                    
+                    </table>
                  </div>
             </div>
           </div>
+             
              
             
     </body>
