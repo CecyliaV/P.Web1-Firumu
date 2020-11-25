@@ -5,8 +5,11 @@
  */
 package com.firuage.firumuipage1.Controllers;
 
+import com.firuage.firumuipage1.models.Card;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -44,7 +47,22 @@ public class mainServlet extends HttpServlet {
 //            out.println("</body>");
 //            out.println("</html>");
 //        }
+
+            List<Card> cards = new ArrayList<>(); 
+            cards.add(new Card("https://i.pinimg.com/564x/5d/8c/b9/5d8cb9745981a3fe0fbcfa7e450b2c49.jpg",
+                    "Braveheart",
+                    "Más real de lo que parece\n",
+                    "https://www.pinterest.ca/pin/542754192592420275/"));
+             cards.add(new Card("https://i.pinimg.com/564x/7c/e8/d7/7ce8d7a3d0d232e67176024da6b8e33a.jpg",
+                    "El señor de los anillos",
+                    "¿De verdad es mágnifica?\n",
+                    "https://www.pinterest.ca/pin/47147127339216112/"));
+              cards.add(new Card("https://i.pinimg.com/564x/8f/2a/35/8f2a358c6947abfd398b7aa7af3d6b88.jpg",
+                    "Guason",
+                    "¿Tendrá secuela?\n",
+                    "https://www.pinterest.ca/pin/276197389637290969/"));
             request.setAttribute("Titulo","Titulo Header"); /*(Nombre de atributo, atributo)*/ /*Asignar objeto*/
+            request.setAttribute("cards",cards);
          request.getRequestDispatcher("index.jsp").forward(request, response); 
     }
 
