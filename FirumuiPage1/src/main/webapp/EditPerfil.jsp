@@ -17,7 +17,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/main.css">
         <!--<link rel="stylesheet" href="CSS/bootstrap.css">-->
-        <title>JSP Page</title>
+        <title>Editar tu Firupágina</title>
     </head>
     <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-yellow nav-link">

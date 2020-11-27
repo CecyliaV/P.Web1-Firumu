@@ -20,7 +20,7 @@ titulo = titulo != null ? titulo : "" ;
         <link rel="stylesheet" href="CSS/main.css">
         <!--<link rel="stylesheet" href="CSS/bootstrap.css">-->
          
-        <title>Mi primer JSP</title>
+        <title>Firumu</title>
     </head>
     <body>
            <nav class="navbar navbar-expand-lg navbar-light bg-yellow nav-link">

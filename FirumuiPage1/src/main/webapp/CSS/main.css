@@ -109,7 +109,12 @@ div.form-group3{
      left: 120px;
 }
 
-
+#exampleCheck1{
+     left: 220px;
+}
+.form-check-label{
+     left: 320px;
+}
 
 .form-group2{
     font-family: 'Montserrat', sans-serif;
@@ -142,6 +147,11 @@ div.form-group3{
   margin-right:20%;
   margin-bottom: 1rem;
  
+}
+
+/*------------tabla favoritos---------------*/
+.table{
+     top: 50px;
 }
 
 /*---Login------------------*/
