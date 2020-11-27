@@ -17,7 +17,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/main.css">
         <link rel="stylesheet" href="CSS/bootstrap.css">
-    <title>Perfil</title>
+    <title>Iniciar sesion</title>
 </head>
 <body>
    <body>
@@ -44,7 +44,7 @@
      
         <!--Apartados de los botones-->
         <div class="btn-group-vertical">
-          <a href="SignIn.jsp" class="btn btn-primary " role="button">Registrarse</a>
+          <a href="RegistUser.jsp" class="btn btn-primary " role="button">Registrarse</a>
         </div>
         
       

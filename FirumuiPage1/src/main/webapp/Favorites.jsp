@@ -2,9 +2,16 @@
     Document   : Favorites
     Created on : Nov 27, 2020, 12:37:54 AM
     Author     : Alex Bazaldua 
---%>
-
+--%><%@page import="java.util.List"%>
+<%@page import="com.firuage.firumuipage1.models.Card"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    /*Casting explicito*/ /*Obtener onjeto*/
+String titulo = (String)request.getAttribute("Titulo"); 
+List<Card> cards = (List<Card> )request.getAttribute("cards"); 
+titulo = titulo != null ? titulo : "" ;
+%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,7 +24,7 @@
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/main.css">
         <!--<link rel="stylesheet" href="CSS/bootstrap.css">-->
-        <title>JSP Page</title>
+        <title>JNoticias favoritas</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-yellow nav-link">
@@ -60,6 +67,49 @@
             <a href="NotiView.jsp" class="btn btn-primary " role="button">Escenas eliminadas</a>
         </div>
        
-        
+        <!-- Aprobar noticias ------------------------------  -->
+             <h2 class="col-12 table"> Noticias favoritas</h2>
+             <table class="col-12 table"> 
+                 
+                 <tr>
+                    <th>Título</th>
+                    <th>Decripción</th>
+                    <th>Imagen</th>
+                    <th>Link</th>
+                    <th>Accion</th>
+                 </tr>
+             <%
+                 if(cards!=null){
+                        for (Card card: cards)
+                        {
+                     %>
+                     <tr>
+                         <td><%= card.getTitle()%></td>
+                         <td><%= card.getDescription()%></td>
+                         <td><%= card.getImgUrl()%></td>
+                         <td><%= card.getLinRef()%></td>
+                         <td>
+                             <a class="btn btn-success">Ver</a>
+                             <a class="btn btn-danger">quitar</a>
+                         </td>
+                     </tr>
+                     <div class="col-sm-20 col-md-16 col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="<%= card.getImgUrl()%>" class="card-img-top" alt="Responsive image">
+                                <div class="card-body">
+                                     <h5 class="card-title"> <%= card.getTitle()%> </h5>
+                                     <p class="card-text"><%= card.getDescription()%></p>
+                                     <a href="<%= card.getLinRef()%>" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                        </div>
+                     </div>
+                     <%
+                         }
+                        }       
+                     %>
+                     
+                  
+                    
+                    </table>
 </body>
 </html>
