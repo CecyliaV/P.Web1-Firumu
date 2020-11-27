@@ -62,7 +62,7 @@ and open the template in the editor.
 
 
 /*Botones de la página firucuenta--------------------------------------*/
-/*.btn-Notify, .btn-Notify:hover, .btn-Notify:active, .btn-Notify:visited {
+.btn-Notify, .btn-Notify:hover, .btn-Notify:active, .btn-Notify:visited {
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -103,30 +103,49 @@ and open the template in the editor.
     background-color: #1a3365 !important;
     border-color:  #ffbb00 !important ;
 }
+/*Apartado para la foto de edicion de perfil*/
+div.form-group3{
+     top:  520px;
+     left: 120px;
+}
 
 
 
 .form-group2{
     font-family: 'Montserrat', sans-serif;
     color: #1a3365!important;
+     margin-left: 20%;
+  margin-right:20%;
+  margin-bottom: 1rem;
+}
+
+.form-group3{
+  margin-left: 20%;
+  margin-right:20%;
+  margin-bottom: 1rem;
 }
 
 .TituloReg{
     font-family: 'Montserrat', sans-serif;
     color: #1a3365!important;
     position: relative;
-    
+    margin-left: 20%;
+  margin-right:20%;
+  margin-bottom: 1rem;
 }
 
 .TituloReg2{
     font-family: 'Montserrat', sans-serif;
     color: #1a3365!important;
     position: relative;
+    margin-left: 20%;
+  margin-right:20%;
+  margin-bottom: 1rem;
  
-}*/
+}
 
 /*---Login------------------*/
-/*div.pop-up{
+div.pop-up{
     position: fixed;
     z-index: 100;
     border-color:#1a3365 !important ;
@@ -148,10 +167,10 @@ and open the template in the editor.
     margin: auto;
     padding: 0 50px;
     margin-top: 6px;
-}*/
+}
 
 /*Gestion de noticias------------------------------------------*/
-/* .dropGestNot{
+ .dropGestNot{
     margin-left: 66%!important;
    position: absolute;
 }
@@ -189,12 +208,12 @@ and open the template in the editor.
     margin-left: 24%;
     position: center;
 }
-/*.cardNotice{
+.cardNotice{
     max-width: 900px;
     height: 950px;
 }
-*/  
-/*.dropGestNot2{
+  
+.dropGestNot2{
     margin-left: 66%!important;
    position: absolute;
    top: 120px;
@@ -209,17 +228,17 @@ and open the template in the editor.
 .checked {
     color: orange;
   }
-  
- */
+  /*
+ 
 
 /*Editar perfil------------------------------*/
-/*.photo-profile-ed{
+.photo-profile-ed{
     margin-left: 1%!important;
    position: absolute;
 }
-*/
+
 /*Trailers--------------------------*/
-/*.TitPeliRecientes{
+.TitPeliRecientes{
     margin-left: 1%!important;
     position: absolute;
     top: 119px;
@@ -235,14 +254,14 @@ and open the template in the editor.
     left:12%;
     height: 6px;
 }
-/*.card{
+.card{
     max-width: 700px;
     height: 250px;
-}*/
-/*.card-inner{
+}
+.card-inner{
     margin-left: 2rem;
-}*/
-/*.comentariosTrailer{
+}
+.comentariosTrailer{
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -287,6 +306,6 @@ and open the template in the editor.
     cursor: pointer;
     border-radius: 2px;
   }
-*/
+
 
 

@@ -18,7 +18,7 @@ titulo = titulo != null ? titulo : "" ;
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/main.css">
-        <!-- <link rel="stylesheet" href="CSS/bootstrap.css">-->
+        <!--<link rel="stylesheet" href="CSS/bootstrap.css">-->
          
         <title>Mi primer JSP</title>
     </head>
@@ -32,7 +32,7 @@ titulo = titulo != null ? titulo : "" ;
           <!--Apartado para el drop Down-->
              <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <a href="mainServlet" class="nav-link">Firucuenta</a>
+                <a href="SignIn.jsp" class="nav-link">Firucuenta</a>
               </ul>
               
 
@@ -44,7 +44,7 @@ titulo = titulo != null ? titulo : "" ;
                  <input class="form-control mr-sm-2" style=" margin: 0.3em 2em;" type="text" placeholder="User" >
                  <input class="form-control mr-sm-2" style=" margin: 0.3em 2em;" type="password" placeholder="password" >
                 <li class="nav-item active">
-                <a class="nav-link2" href="InicioSesion.html" >Iniciar sesion <span class="sr-only">(current)</span></a>
+                <a class="nav-link2" href="Login.jsp" >Iniciar sesion <span class="sr-only">(current)</span></a>
               </li>
             </form>
             <%
@@ -59,11 +59,11 @@ titulo = titulo != null ? titulo : "" ;
              
               <!-- Apartado para los botones -->
         <div class="btn-group" role="group" aria-label="Basic example">
-            <a href="Estrenos.html" class="btn btn-primary " role="button">Estrenos</a>
-            <a href="trailers.html" class="btn btn-primary " role="button">Trailers</a>
-            <a href="Entrevistas.html" class="btn btn-primary " role="button">Entrevistas</a>
-            <a href="DetrasCamaras.html" class="btn btn-primary " role="button">Detras de camaras</a>
-            <a href="escenaEliminada.html" class="btn btn-primary " role="button">Escenas eliminadas</a>
+            <a href="NotiView.jsp" class="btn btn-primary " role="button">Estrenos</a>
+            <a href="NotiView.jsp" class="btn btn-primary " role="button">Trailers</a>
+            <a href="NotiView.jsp" class="btn btn-primary " role="button">Entrevistas</a>
+            <a href="NotiView.jsp" class="btn btn-primary " role="button">Detras de camaras</a>
+            <a href="NotiView.jsp" class="btn btn-primary " role="button">Escenas eliminadas</a>
         </div>
               
         <!-- Apartado para vistas de tarjetas-->
@@ -80,7 +80,7 @@ titulo = titulo != null ? titulo : "" ;
                         for (Card card: cards)
                         {
                      %>
-                      <div class="card col-4">
+                      <div class="card col-6">
                     <img src="<%= card.getImgUrl()%>" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><%= card.getTitle()%></h5>
@@ -95,13 +95,13 @@ titulo = titulo != null ? titulo : "" ;
 
                      %>
                      
-                    <h2 class="cot´+ghjpghl-10"> For</h2>
+                    <h2 class="col-12"> For</h2>
                     <%
                          for(int i=0;i<=3;i++){
                     %>
             <!--<p>Categoria<p>-->
            
-                    <div class="col-sm-20 col-md-6 col-lg-4">
+                    <div class="col-sm-20 col-md-16 col-lg-3">
                         <div class="card " style="width: 20rem;">
                             <img src="https://static1.abc.es/media/play/2020/05/16/braveheart-kDsF--620x349@abc.jpg" 
                             class="card-img-top" alt="Responsive image">
